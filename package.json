@@ -1,0 +1,30 @@
+{
+  "name": "metricsfn",
+  "version": "1.0.2",
+  "description": "Get metric data on your scripts",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pupariaa/MetricsFn.git"
+  },
+  "keywords": [
+    "metrics",
+    "analytics",
+    "pupariaa",
+    "monitoring",
+    "followed",
+    "follow",
+    "scripts"
+  ],
+  "author": "pupariadev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pupariaa/MetricsFn/issues"
+  },
+  "homepage": "https://github.com/Pupariaa/MetricsFn#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  }
+}
