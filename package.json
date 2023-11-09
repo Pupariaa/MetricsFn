@@ -1,6 +1,6 @@
 {
   "name": "metricsfn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get metric data on your scripts",
   "main": "src/index.js",
   "scripts": {},
