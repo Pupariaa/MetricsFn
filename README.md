@@ -58,14 +58,14 @@ async function makeRequest(url, method = 'GET', data = null) {
       data,
     });
 
-    metrics.ID(id).FetchTimeExec(metrics.TimerStop()).Success()
+    metrics.ID(id).FetchTimeExec(metrics.TimerStop(id)).Success()
     datas = response.data
     metricsDatas = metrics.ID(id).env()
 
     return {datas, metricsDatas};
 
   } catch (error) {
-    metrics.ID(id).FetchTimeExec(metrics.TimerStop()).FetchError().Aborted()
+    metrics.ID(id).FetchTimeExec(metrics.TimerStop(id)).FetchError().Aborted()
     metricsDatas = metrics.ID(id).env()
 
     return {datas, metricsDatas};
